@@ -108,6 +108,16 @@ body, html {
   line-height: 30px;
 }
 
+.contact {
+  width: 50%;
+  margin: 16px;
+}
+
+.bio > p {
+  width: 80%;
+  line-height: 30px;
+}
+
 .hello {
   font-family: Georgia;
   color: #bb5179;
