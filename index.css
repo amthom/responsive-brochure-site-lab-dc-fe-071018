@@ -10,7 +10,7 @@ body, html {
   font-size: 1em;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 100px 50px auto 85px;
+  grid-template-rows: 150px 50px auto 85px;
   position: relative;
 }
 
