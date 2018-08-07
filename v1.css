@@ -1,0 +1,147 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+.grid-container {
+  height: 100%;
+  background-color: #EEE;
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 150px 50px auto 150px;
+  position: relative;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
+.header > p {
+  bottom: 0px;
+  left: 5%;
+  position: absolute;
+  font-weight: bold;
+  }
+
+.main_nav {
+  background-color: #555;
+  position: relative;
+}
+
+#main_menu {
+  position: absolute;
+  list-style: none;
+  left: 5%;
+  margin: 0 0 50px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-transform: uppercase;
+}
+
+#main_menu > li {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#main_menu > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 16px;
+  background-color: #555;
+}
+
+#main_menu li a:hover {
+  background-color: #333;
+}
+
+.my_name {
+  font-size: 4em;
+  letter-spacing: 5px;
+}
+
+        /*============== FLEXBOX ==============*/
+
+        .main_section {
+          display: flex;
+          overflow: auto;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin: auto;
+          height: 500px;
+
+        }
+
+        /*============== FLEXBOX ==============*/
+
+.headshot_div {
+  margin: 16px auto;
+}
+
+.headshot_div > #headshot {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 30px #333;
+}
+
+.bio {
+  width: 50%;
+  margin: 16px;
+}
+
+.bio > p {
+  width: 80%;
+  line-height: 30px;
+}
+
+.hello {
+  font-family: Georgia;
+  color: white;
+  font-size: 3em;
+  min-width: 10px;
+}
+
+.footer {
+  background-color: #333;
+  position: relative;
+}
+
+#social_list {
+  display: inline;
+  position: absolute;
+  list-style: none;
+  left: 50%;
+  top: 25%;
+  margin: 0 0 50px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#social_list > li {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 5px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#twitter_icon, #linkedin_icon, #instagram_icon {
+  width: 50px;
+}

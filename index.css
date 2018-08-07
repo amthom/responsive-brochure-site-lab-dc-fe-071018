@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+.grid-container {
+  height: 100%;
+  background-color: #EEE;
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 150px 50px auto 85px;
+  position: relative;
+}
+
+.header {
+  background-color: #EEE;
+  position: relative;
+}
+
+.header > p {
+  bottom: 0px;
+  left: 5.5%;
+  position: absolute;
+  }
+
+.main_nav {
+  background-color: #555;
+  position: relative;
+}
+
+#main_menu {
+  position: absolute;
+  list-style: none;
+  left: 5%;
+  margin: 0 0 50px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EEE;
+  text-transform: uppercase;
+}
+
+#main_menu > li {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#main_menu > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 17px 16px;
+  background-color: #555;
+}
+
+#main_menu li a:hover {
+  background-color: #bb5179;
+}
+
+.my_name {
+  font-size: 6em;
+  letter-spacing: 4px;
+  color: #bb5179;
+  font-family: 'Lobster', cursive;
+  font-weight: 200;
+}
+
+        /*============== FLEXBOX ==============*/
+
+        .main_section {
+          display: flex;
+          overflow: auto;
+          flex-direction: row;
+          flex-wrap: wrap;
+          margin: auto;
+          height: auto;
+
+        }
+
+        /*============== FLEXBOX ==============*/
+
+.headshot_div {
+  margin: 16px auto;
+}
+
+.headshot_div > #headshot {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 10px #111;
+}
+
+.bio {
+  width: 50%;
+  margin: 16px;
+}
+
+.bio > p {
+  width: 80%;
+  line-height: 30px;
+}
+
+.hello {
+  font-family: Georgia;
+  color: #bb5179;
+  font-size: 3em;
+  min-width: 10px;
+}
+
+.footer {
+  background-color: #EEE;
+  position: relative;
+}
+
+#social_list {
+  display: inline;
+  position: absolute;
+  list-style: none;
+  left: 45%;
+  top: 10%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EEE;
+}
+
+#social_list > li {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 5px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#social_list > li a:hover {
+  position: relative;
+             top: -2px;
+             left: -2px;
+}
+
+#twitter_icon, #linkedin_icon, #instagram_icon {
+  width: 50px;
+}
